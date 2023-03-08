@@ -1,0 +1,5 @@
+type Notes @model @auth(rules: [{allow: owner}]) {
+  id: ID!
+  title: String
+  Text: String
+} 
